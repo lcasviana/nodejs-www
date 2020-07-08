@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #212121;
+}
+
+html {
+  font: 16px "Calibri", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  padding: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
